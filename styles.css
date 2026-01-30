@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@200;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,9 @@
 
 body {
   background-color: rgb(67, 169, 237);
-  font-family: 'Bitcount Single';
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -19,7 +21,7 @@ body {
 
 .btn {
   background-color: rgb(167, 218, 251);
-  border-radius: 5px;
+  border-radius: 20px;
   border: none;
   color: #fff;
   margin: 1rem;
@@ -35,4 +37,4 @@ body {
 
 .btn:focus {
   outline: none;
-}
+};
